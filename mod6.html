@@ -1,11 +1,32 @@
 <html>
   <head>
-    <link rel='stylesheet' type='text/css' href='style/mod6.css'>
+    <link rel='stylesheet' type='text/css' href='style/mod4.css'>
     <link rel="shortcut icon" type="image/png" href="images/eddies.png"/>
-    <title>Module 6</title>
+    <title>Javascript</title>
   </head>
   <body>
-    Hello from Module 6!
-    <script src='js/mod6.js'></script>
+    <h1>Exploring Javascript Benchmarks</h1>
+    <img src="images/benchmark.png" width="800px" />
+    <p>
+      Im currently exploring the concept of a programming benchmark, a performance test that could be run accross
+      multiple languages, platforms, or sets of parametric constraints to inform decision making. Particularly
+      important for many businesses and design teams, is to choose the correct technology/language/algorithm at the onset 
+      of a design task. The decision of choosing the correct technology often considers how the performance of
+      the code scales with memory/bandwidth growth. Linear scaling of such systems is usually desired. In my activity,
+      I studied how the time required for memory storage scaled with the amount of memory. Such a study would
+      be relevant for e-businesses evaluating their growth in overhead as they expand their customer base/server loads.
+      <a href="code/benchmark.html" target="_blank">Here</a> is some of my code. Note: in my code you 
+      must manually call the test function "benchmark_1" from the console, passing in the number of elements 
+      you wish to be stored in the
+      array. The process of obtaining test data is shown in the video below. The results of my benchmark tests, 
+      shown above, illustrate a linear relationship between time 
+      required for memory storage and the amount of memory stored. In a business setting, management could use
+      this data to plan for the growth of their hardware overhead to grow proportionaly with their customer base.
+    </p>
+    <video width="400" height="300" controls>
+      <source src="m4v/benchmark.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <script src='js/mod4.js'></script>
   </body>
 </html>
