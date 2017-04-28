@@ -23,7 +23,7 @@ window.onload = function(){
     if(posY > canvas.height - 10){
       posY = canvas.height - 10;
       velY *= -1;
-    }else if(posX <0){
+    }else if(posY <0){
       posY = 0;
       velY *= -1;
     }
