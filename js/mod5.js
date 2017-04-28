@@ -25,7 +25,7 @@ window.onload = function(){
       velY *= -1;
     }else if(posX <0){
       posY = 0;
-      velX *= -1;
+      velY *= -1;
     }
     c.fillStyle = 'white';
     c.fillRect(posX,posY,10,10);
