@@ -6,8 +6,8 @@ window.onload = function(){
   document.body.appendChild(canvas);
   var posX = canvas.width / 2,
       posY = canvas.height / 2,
-      velX = 3*Math.random()+1,
-      velY = 3*Math.random()+1;
+      velX = 6*Math.random()+1,
+      velY = 6*Math.random()+1;
   setInterval(function(){
     c.fillStyle = 'black';
     c.fillRect(0,0,canvas.width,canvas.height);
